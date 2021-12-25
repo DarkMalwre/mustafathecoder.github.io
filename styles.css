@@ -1,0 +1,48 @@
+body {
+    background-image: url("assets/Background.png");
+  }
+
+h1 {
+  color: white;
+  font-family: Helvetica;
+}
+
+u {
+  color: white;
+  font-family: Helvetica;
+}
+
+strong {
+  color: white;
+  font-family: Helvetica;
+}
+
+p {
+  color: white;
+  font-size: medium;
+  font-family: Helvetica;
+}
+
+img {
+  padding: 40px;
+  width: 400px;
+}
+
+div.about {
+  color: white;
+  font-size: large;
+  font-family: Helvetica;
+}
+
+h2 {
+  color: white;
+  font-family: Helvetica;
+  font-size: medium;
+  margin:10px; 
+}
+
+div.copy {
+  border:5px solid white;
+  margin:10px; 
+}
+
