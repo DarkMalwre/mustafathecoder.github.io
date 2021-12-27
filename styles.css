@@ -26,13 +26,9 @@ p {
 img {
   padding: 40px;
   width: 400px;
+  cursor: pointer;
 }
 
-div.about {
-  color: white;
-  font-size: large;
-  font-family: Helvetica;
-}
 
 h2 {
   color: white;
@@ -41,12 +37,129 @@ h2 {
   margin:10px; 
 }
 
-div.copy {
+
+.home p{
   border:5px solid white;
-  margin:10px; 
+  width: 15cm;
+  cursor: pointer;
+  color: white;
+  padding: 2%;
+  font-weight: bold;
+  font-size: 18px;
 }
 
-div.copy:hover {
-    background: black;
-    color: white;
+.home a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.aboutme {
+  padding: 10%;
+}
+
+.aboutme h1 {
+  font-weight: bold;
+}
+
+.aboutme p {
+  font-family: Helvetica;
+}
+
+.aboutme a{
+  text-decoration: none;
+  padding: 3px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border:2px solid white;
+  color: white;
+  font-size: 15px;
+}
+
+.myservices {
+  padding: 10%;
+}
+
+.myservices h1 {
+  font-weight: bold;
+}
+
+.myservices p {
+  font-family: Helvetica;
+
+}
+.myservices a{
+  text-decoration: none;
+  padding: 3px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border:2px solid white;
+  color: white;
+  font-size: 15px;
+}
+
+.myblog {
+  padding: 10%;
+}
+
+.myblog h1 {
+  font-weight: bold;
+}
+
+.myblog p{
+  font-family: Helvetica;
+}
+
+.myblog a{
+  text-decoration: none;
+  padding: 3px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border:2px solid white;
+  color: white;
+  font-size: 15px;
+}
+
+.mycv {
+  padding: 10%;
+}
+
+.mycv h1 {
+  font-weight: bold;
+}
+
+.mycv p{
+  font-family: Helvetica;
+}
+
+.mycv a{
+  text-decoration: none;
+  padding: 3px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border:2px solid white;
+  color: white;
+  font-size: 15px;
+}
+
+.mycontact {
+  padding: 10%;
+}
+
+.mycontact h1 {
+  font-weight: bold;
+}
+
+.mycontact p {
+  font-family: Helvetica;
+}
+
+.mycontact a{
+  text-decoration: none;
+  padding: 3px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border:2px solid white;
+  color: white;
+  font-size: 15px;
 }
