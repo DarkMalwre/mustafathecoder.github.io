@@ -101,6 +101,40 @@ h2 {
   font-size: 15px;
 }
 
+
+.posts {
+  padding: 10%;
+}
+
+.posts h1 {
+  font-weight: bold;
+}
+
+.posts p{
+  font-family: Helvetica;
+}
+
+.posts a{
+  text-decoration: none;
+  padding: 3px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border:2px solid white;
+  color: white;
+  font-size: 15px;
+}
+
+.posts p{
+  text-decoration: none;
+  padding: 3px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border:2px solid white;
+  color: white;
+  font-size: 15px;
+}
+
+
 .myblog {
   padding: 10%;
 }
@@ -166,3 +200,4 @@ h2 {
   color: white;
   font-size: 15px;
 }
+
