@@ -38,7 +38,7 @@ h2 {
 
 .home p{
   border:5px solid white;
-  width: 15cm;
+  width: 30cm;
   cursor: pointer;
   color: white;
   padding: 2%;
@@ -130,7 +130,8 @@ h2 {
   padding-right: 5px;
   padding-left: 5px;
   border:2px solid white;
-  color: white;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
   font-size: 15px;
 }
 
@@ -157,6 +158,18 @@ h2 {
   font-size: 15px;
 }
 
+.supportme {
+  padding: 10%;
+}
+
+.supportme h1 {
+  font-weight: bold;
+}
+
+.supportme p{
+  font-family: Helvetica;
+}
+
 .mycv {
   padding: 10%;
 }
@@ -177,6 +190,7 @@ h2 {
   border:2px solid white;
   color: white;
   font-size: 15px;
+  margin-right: 10px;
 }
 
 .mycontact {
