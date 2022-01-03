@@ -215,3 +215,20 @@ h2 {
   font-size: 15px;
 }
 
+
+.projects {
+  padding: 10%;
+}
+
+.projects h1 {
+  font-weight: bold;
+}
+
+.projects p {
+  font-family: Helvetica;
+}
+
+.projects img{
+  height: 80%;
+  width: 80%;
+}
