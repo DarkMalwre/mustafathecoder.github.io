@@ -1,5 +1,5 @@
 body {
-    background-image: url("assets/Background.png");
+    background-image: url("assets/Background.jpg");
   }
 
 h1 {
@@ -38,13 +38,14 @@ h2 {
 
 .home p{
   border:5px solid white;
-  width: 30cm;
+  width: 22cm;
   cursor: pointer;
   color: white;
   padding: 2%;
   font-weight: bold;
   font-size: 18px;
 }
+
 
 .home a{
   text-decoration: none;
@@ -69,6 +70,11 @@ h2 {
   font-family: Helvetica;
 }
 
+.aboutme pre {
+  font-family: Helvetica;
+  color: white;
+}
+
 .aboutme a{
   text-decoration: none;
   padding: 3px;
@@ -78,6 +84,7 @@ h2 {
   color: white;
   font-size: 15px;
 }
+
 
 .myservices {
   padding: 10%;
@@ -91,6 +98,7 @@ h2 {
   font-family: Helvetica;
 
 }
+
 .myservices a{
   text-decoration: none;
   padding: 3px;
@@ -170,6 +178,19 @@ h2 {
   font-family: Helvetica;
 }
 
+.supportme a{
+  text-decoration: none;
+  padding: 3px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border:2px solid white;
+  color: white;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+
+
 .mycv {
   padding: 10%;
 }
@@ -213,6 +234,7 @@ h2 {
   border:2px solid white;
   color: white;
   font-size: 15px;
+  margin-right: 10px;
 }
 
 
@@ -228,7 +250,13 @@ h2 {
   font-family: Helvetica;
 }
 
-.projects img{
-  height: 80%;
-  width: 80%;
+.projects a{
+  text-decoration: none;
+  padding: 3px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border:2px solid white;
+  color: white;
+  font-size: 15px;
+  margin-right: 10px;
 }
