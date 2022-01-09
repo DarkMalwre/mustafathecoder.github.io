@@ -1,264 +1,159 @@
-body {
-    background-image: url("assets/Background.jpg");
-  }
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
 
-h1 {
-  color: white;
-  font-family: Helvetica;
+* {
+    padding:0;
+    margin:0;
 }
 
-u {
-  color: white;
-  font-family: Helvetica;
+body{
+    background-color: #222;
 }
 
-strong {
-  color: white;
-  font-family: Helvetica;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+nav ul li {
+float: left;
 }
 
-p {
-  color: white;
-  font-size: medium;
-  font-family: Helvetica;
-}
-
-img {
-  padding: 40px;
-  width: 400px;
-  cursor: pointer;
-}
-
-h2 {
-  color: white;
-  font-family: Helvetica;
-  font-size: medium;
-  margin:10px; 
-}
-
-.home p{
-  border:5px solid white;
-  width: 22cm;
-  cursor: pointer;
-  color: white;
-  padding: 2%;
-  font-weight: bold;
-  font-size: 18px;
+nav ul li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 25px;
+font-family: 'Roboto Mono', monospace;
+margin-top: 8px;
+margin-bottom: 8px;
+margin-left: 20px;
 }
 
 
-.home a{
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
+nav ul li a:hover {
+background-color: #111;
 }
 
-.home h1 {
-  font-weight: bold;
-  font-size: 32px;
-}
-
-.aboutme {
-  padding: 10%;
-}
-
-.aboutme h1 {
-  font-weight: bold;
-}
-
-.aboutme p {
-  font-family: Helvetica;
-}
-
-.aboutme pre {
-  font-family: Helvetica;
-  color: white;
-}
-
-.aboutme a{
-  text-decoration: none;
-  padding: 3px;
-  padding-right: 5px;
-  padding-left: 5px;
-  border:2px solid white;
-  color: white;
-  font-size: 15px;
+nav ul img{
+    width: 60px;
+    height: 60px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 930px;
 }
 
 
-.myservices {
-  padding: 10%;
+.home h1{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 95px;
+    font-weight: bold;
+    margin-left: 18%;
+    margin-top: 15%;
 }
 
-.myservices h1 {
-  font-weight: bold;
-}
-
-.myservices p {
-  font-family: Helvetica;
-
-}
-
-.myservices a{
-  text-decoration: none;
-  padding: 3px;
-  padding-right: 5px;
-  padding-left: 5px;
-  border:2px solid white;
-  color: white;
-  font-size: 15px;
+.home h2{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 43%;
+    margin-top: 1%;
 }
 
 
-.posts {
-  padding: 10%;
+.about h1{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 95px;
+    font-weight: bold;
+    margin-left: 35%;
+    margin-top: 15%;
 }
 
-.posts h1 {
-  font-weight: bold;
+.about h2{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40%;
+    margin-top: 1%;
 }
 
-.posts p{
-  font-family: Helvetica;
-}
-
-.posts a{
-  text-decoration: none;
-  padding: 3px;
-  padding-right: 5px;
-  padding-left: 5px;
-  border:2px solid white;
-  color: white;
-  font-size: 15px;
-}
-
-.posts p{
-  text-decoration: none;
-  padding: 3px;
-  padding-right: 5px;
-  padding-left: 5px;
-  border:2px solid white;
-  border-radius: 10px;
-  color: rgb(255, 255, 255);
-  font-size: 15px;
+.about p{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-right: 50px;
+    margin-top: 1%; 
 }
 
 
-.myblog {
-  padding: 10%;
+.projects h1{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 95px;
+    font-weight: bold;
+    margin-left: 30%;
+    margin-top: 15%;
 }
 
-.myblog h1 {
-  font-weight: bold;
-}
-
-.myblog p{
-  font-family: Helvetica;
-}
-
-.myblog a{
-  text-decoration: none;
-  padding: 3px;
-  padding-right: 5px;
-  padding-left: 5px;
-  border:2px solid white;
-  color: white;
-  font-size: 15px;
-}
-
-.supportme {
-  padding: 10%;
-}
-
-.supportme h1 {
-  font-weight: bold;
-}
-
-.supportme p{
-  font-family: Helvetica;
-}
-
-.supportme a{
-  text-decoration: none;
-  padding: 3px;
-  padding-right: 5px;
-  padding-left: 5px;
-  border:2px solid white;
-  color: white;
-  font-size: 15px;
-  margin-right: 10px;
-}
-
-
-
-.mycv {
-  padding: 10%;
-}
-
-.mycv h1 {
-  font-weight: bold;
-}
-
-.mycv p{
-  font-family: Helvetica;
-}
-
-.mycv a{
-  text-decoration: none;
-  padding: 3px;
-  padding-right: 5px;
-  padding-left: 5px;
-  border:2px solid white;
-  color: white;
-  font-size: 15px;
-  margin-right: 10px;
-}
-
-.mycontact {
-  padding: 10%;
-}
-
-.mycontact h1 {
-  font-weight: bold;
-}
-
-.mycontact p {
-  font-family: Helvetica;
-}
-
-.mycontact a{
-  text-decoration: none;
-  padding: 3px;
-  padding-right: 5px;
-  padding-left: 5px;
-  border:2px solid white;
-  color: white;
-  font-size: 15px;
-  margin-right: 10px;
-}
-
-
-.projects {
-  padding: 10%;
-}
-
-.projects h1 {
-  font-weight: bold;
-}
-
-.projects p {
-  font-family: Helvetica;
+.projects h2{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40%;
+    margin-top: 1%;
 }
 
 .projects a{
-  text-decoration: none;
-  padding: 3px;
-  padding-right: 5px;
-  padding-left: 5px;
-  border:2px solid white;
-  color: white;
-  font-size: 15px;
-  margin-right: 10px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    border: 3px solid white;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 708px;
+    margin-right: 707px;
+    margin-top: 5%;
+    text-decoration: none;
 }
 
+.contact h1{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 95px;
+    font-weight: bold;
+    margin-left: 32%;
+    margin-top: 15%;
+}
 
+.contact h2{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40%;
+    margin-top: 1%;
+}
+
+.contact a{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    border: 3px solid white;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 730px;
+    margin-right: 707px;
+    margin-top: 5%;
+    text-decoration: none;
+}
